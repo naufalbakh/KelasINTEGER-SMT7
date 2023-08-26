@@ -12240,3 +12240,71 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+
+#more {
+  display: none;
+}
+
+.tim {
+  border-radius: 15px;
+  margin: auto;
+  text-align: center;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #22223B;
+  padding: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.col button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #F2E9E4;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-right: 35%;
+  padding-left: 35%;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .col button {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+/* Change background color of buttons on hover */
+.col button:hover {
+  background-color: #4C4F6A;
+  color: #CAADA7;
+}
+
+/* Create an active/current tablink class */
+.col button.active {
+  background-color: #F2E9E4;
+  color: #22223B;
+}
+
+/* Style the tab content */
+.colcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4C4F6A;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
